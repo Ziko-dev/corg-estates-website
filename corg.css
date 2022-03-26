@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  @font-face {
+    font-family: font1;
+    src: url("fonts/Abel-Regular.woff");
+  }
+  
+  @font-face {
+    font-family: font2;
+    src: url("fonts/Barlow-Regular.woff");
+  }
+  
+  @font-face {
+    font-family: font3;
+    src: url("fonts/Grandstander-Thin.woff");
+  }
+  
+  @font-face {
+    font-family: font4;
+    src: url("fonts/Lato-Regular.woff");
+  }
+  
+  @font-face {
+    font-family: font5;
+    src: url("fonts/Montserrat-Regular.woff");
+  }
+  
+  @font-face {
+    font-family: font6;
+    src: url("fonts/Nunito-Regular.woff");
+  }
+  
+  @font-face {
+    font-family: font7;
+    src: url("fonts/Satisfy-Regular.WOFF");
+  }
+  
+  @font-face {
+    font-family: font8;
+    src: url("fonts/Righteous-Regular.WOFF");
+  }
+  
+  @font-face {
+    font-family: font9;
+    src: url("fonts/LondrinaSolid-Regular.WOFF");
+  }
+  
+  @font-face {
+    font-family: font10;
+    src: url("fonts/LobsterTwo-Regular.WOFF");
+  }
+  
+  @font-face {
+    font-family: font11;
+    src: url("fonts/BigShouldersInlineText-Regular.WOFF");
+  }
+  
+  @font-face {
+    font-family: font12;
+    src: url("fonts/BigShouldersInlineText-Black.WOFF");
+  }
+  
+  @font-face {
+    font-family: font13;
+    src: url("fonts/Akronim-Regular.woff");
+  }
+  
+  @font-face {
+    font-family: font14;
+    src: url("fonts/Akronim-Regular-1.woff");
+  }
+  
+  @font-face {
+    font-family: font15;
+    src: url("fonts/AndadaPro-Regular.woff");
+  }
+  
+  @font-face {
+    font-family: font16;
+    src: url("fonts/ArchitectsDaughter-Regular.woff");
+  }
+  
+  @font-face {
+    font-family: font17;
+    src: url("fonts/Birthstone-Regular.woff");
+  }
+  
+  @font-face {
+    font-family: font18;
+    src: url("fonts/OpenSansCondensed-Bold.woff");
+  }
+  
+  @font-face {
+    font-family: font19;
+    src: url("fonts/OpenSansCondensed-Light.woff");
+  }
+  
+  @font-face {
+    font-family: font20;
+    src: url("fonts/Oswald-Regular.woff");
+  }
+  
+  @font-face {
+    font-family: font21;
+    src: url("fonts/Poppins-Regular.woff");
+  }
+  
+  @font-face {
+    font-family: font22;
+    src: url("fonts/Raleway-Regular.woff");
+  }
+  
+  @font-face {
+    font-family: font23;
+    src: url("fonts/Ubuntu-Bold.woff");
+  }
+  
+  @font-face {
+    font-family: font24;
+    src: url("fonts/Ubuntu-Regular.woff");
+  }
+  
+/* body html */
+
+body {
+    background:white;
+    width: 100%;
+    height: auto;
+}
+/* header */
+header {
+}
+h1 {
+  font-family: font9;
+  color: ghostwhite;
+  font-size: 35px;
+  display: block;
+  letter-spacing:1px;
+  position: relative;
+  top: 2px;
+  padding-left: 15px;
+  padding-top: 6px;
+  word-spacing: -5px;
+}
+
+
+nav {
+  float: right;
+  position: relative;
+  top: -27px;
+  right: 24em;
+
+}
+ul {
+  position: relative;
+  left: 45px;
+}
+li{
+
+  list-style-type: none;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+text-transform: uppercase;
+  font-family: 'font5';
+  font-size: 16px;
+  padding: 10px;
+  color: ghostwhite;
+}
+a:hover {
+  color: lightseagreen;
+  transition: .7s ease-in-out;
+}
+.cgimg {
+  width: 1em;
+  position: relative;
+  left: 47em;
+  top: -32px;
+  padding: 16px;
+  border-radius: 21px;
+}
+.simg {
+  width: 1em;
+  position: relative;
+  left: 47em;
+  top: -32px;
+  padding: 16px;
+  border-radius: 21px;
+}
+.lgimg {
+  width: 1em;
+  position: relative;
+  left: 47em;
+  top: -32px;
+  padding: 16px;
+  border-radius: 21px;
+}
+.iimg {
+  width: 1em;
+  position: relative;
+  left: 47em;
+  top: -32px;
+  padding: 16px;
+  border-radius: 22px;
+}
+div {
+  position: relative;
+    background: black;
+    height: 4em;
+    width: 100%;
+    display: block;
+}
+main {
+      height: 67em;
+      display: block;
+      position: relative;
+}
+h2 {
+  position: relative;
+    top: 5em;
+    width: 10em;
+    font-size: 3em;
+    display: block;
+    font-family: 'font5';
+    left: 1em;
+}
+span {
+  display: block;
+  width: 6em;
+  position: relative;
+  font-size: 36px;
+}
+.mainimg {
+  width: 40em;
+  height:25em;
+  position: relative;
+  left: 38em;
+  top: 0em;
+  border-radius: 3.6em;
+}
+.lux{
+  position: relative;
+  display: inline-block;
+  font-size: 2.4em;
+  left: 3.5em;
+  width: 26%;
+  font-family: 'font5';
+  top: 6em;
+}
+.mainimg2 {
+  height: 23em;
+  width: 39em;
+  position: relative;
+  left: 3em;
+  top: 1em;
+  border-radius: 3.5em;
+}
+n {
+  position: relative;
+  border-top: 2px solid black;
+  background: lightseagreen;
+  height: 14em;
+}
+.lux2 {
+    width: 11.2em;
+    height: 1.5em;
+    margin: 0 auto;
+    padding: 1em;
+    font-family: 'font10';
+    border: none;
+    top: 0em;
+    font-size: 1.7em;
+}
+.ipocup {
+    position: relative;
+    width: 17em;
+    height: 2em;
+    border: 2px solid beige;
+    right: 2em;
+}
+.iploc {
+  position: relative;
+  width: 17em;
+  height: 2em;
+  border: 2px solid beige;
+  right: 2em;
+  margin: 2em;
+}
+form { 
+  position: relative;
+    padding: 1em;
+    margin: 0 auto;
+    border: none;
+    width: 14em;
+    height: 12em;
+    display: inline;
+    left: 18em;
+}
+
+select {
+  position: relative;
+  width: 17em;
+  height: 2em;
+  border: 2px solid beige;
+  right: 2em;
+}
+footer {
+  width: 100%;
+  height: 9em;
+  background-color: currentColor;
+}
+.overimg {
+  width:100%;
+  position: absolute;
+  display: block;
+  opacity: 0.2;
+  height: 65em;
+}
+
+.dropdown {
+  background-color: black;
+  opacity: .7;
+  border: 2px solid whitesmoke;
+  width: 11.7em;
+  height: 3.1em;
+  position: relative;
+  color: white;
+  font-size: 18px;
+  font-family: font2;
+  cursor: pointer;
+}
+.dropup {
+  background-color: black;
+    opacity: .7;
+    border: 2px solid whitesmoke;
+    width: 11.7em;
+    height: 3.1em;
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-family: font2;
+    top: 15px;
+    left: 20px;
+    cursor: pointer;
+}
+.ipbtn {
+  width: 7em;
+  height: 1.8em;
+  position: relative;
+  left: 23em;
+  text-align: center;
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+.iploc::placeholder {
+  padding: 8px;
+}
+.ipocup::placeholder {
+  padding: 8px;
+}
+select::placeholder {
+  padding: 8px;
+}
